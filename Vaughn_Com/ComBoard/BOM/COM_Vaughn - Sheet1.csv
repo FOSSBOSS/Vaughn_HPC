@@ -1,0 +1,8 @@
+Part,PCB_lable,Qnty,Docs,picture,CadModels
+PIC16LF1938,U1,1,https://ww1.microchip.com/downloads/en/DeviceDoc/40001574C.pdf,,
+2n3904,"Q1,Q3",2,,,
+Resistor,"R1,R2,R7",3,,,
+1/8watt resitor,R11,1,,,
+Cap,"C1,C2",2,,,
+6pin resistor aray,Rp1,1,,,
+8pin resistor array,Rp2,1,,,
