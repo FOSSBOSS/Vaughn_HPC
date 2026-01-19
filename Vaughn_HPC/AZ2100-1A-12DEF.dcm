@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AZ2100-1A-12DEF
+D General Purpose Relay SPST-NO (1 Form A) 12VDC Coil Through Hole
+K
+F https://www.azettler.com/pdfs/az2100.pdf
+$ENDCMP
+#
+#End Doc Library
