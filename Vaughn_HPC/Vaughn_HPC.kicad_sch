@@ -332,113 +332,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3173,6 +3066,437 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_BJT:2N3904"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N3904"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=E 2=B 3=C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2N3904_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2N3904_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "cubey:AZ2100-1A-12DEF"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 29.21 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "AZ2100-1A-12DEF"
+				(at 29.21 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "AZ21001A12DEF"
+				(at 29.21 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.azettler.com/pdfs/az2100.pdf"
+				(at 29.21 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "General Purpose Relay SPST-NO (1 Form A) 12VDC Coil Through Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "28.194"
+				(at 29.21 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Zettler Group"
+				(at 29.21 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "AZ2100-1A-12DEF"
+				(at 29.21 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 29.21 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 29.21 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 29.21 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 29.21 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "AZ2100-1A-12DEF_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 27.94 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "COIL_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 0 180)
+					(length 5.08)
+					(name "COIL_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -2.54 180)
+					(length 5.08)
+					(name "NO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -3274,9 +3598,235 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "sugar:AZ943-1CH-24DE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 29.21 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "AZ943-1CH-24DE"
+				(at 29.21 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "AZ9431CH24DE"
+				(at 29.21 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.azettler.com/pdfs/az943.pdf"
+				(at 29.21 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "15A SUGAR CUBE RELAY"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "15.95"
+				(at 29.21 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Zettler Group"
+				(at 29.21 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "AZ943-1CH-24DE"
+				(at 29.21 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 29.21 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 29.21 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 29.21 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 29.21 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "AZ943-1CH-24DE_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 27.94 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "COIL_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "NO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 33.02 0 180)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -2.54 180)
+					(length 5.08)
+					(name "COIL_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
-		(at 228.6 87.63)
+		(at 205.74 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "091c03e6-fc69-4842-bfa0-93c434aba38d")
@@ -3300,7 +3850,7 @@
 		(uuid "17b95b4a-a5e6-41d4-a8b5-978ded23af78")
 	)
 	(junction
-		(at 256.54 85.09)
+		(at 175.26 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "272d2516-5b6d-4981-b849-a58e66e1be94")
@@ -3310,6 +3860,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3edfeaf0-929d-46a3-b151-3b2b444e921b")
+	)
+	(junction
+		(at 146.05 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41fb55a5-879d-4c27-9730-34a1d8bf6cf3")
 	)
 	(junction
 		(at 368.3 224.79)
@@ -3348,6 +3904,12 @@
 		(uuid "aa671a7f-fd5a-4924-af65-4044ca78822a")
 	)
 	(junction
+		(at 187.96 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7fd930e-172a-4384-8e6d-64b291a309ee")
+	)
+	(junction
 		(at 116.84 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3367,6 +3929,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 215.9) (xy 67.31 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "005511f7-8198-4626-9ff0-250d2d1bd227")
+	)
+	(wire
+		(pts
 			(xy 204.47 163.83) (xy 204.47 186.69)
 		)
 		(stroke
@@ -3377,7 +3949,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 69.85) (xy 153.67 67.31)
+			(xy 146.05 69.85) (xy 146.05 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3397,7 +3969,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 74.93) (xy 240.03 74.93)
+			(xy 213.36 67.31) (xy 217.17 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3417,7 +3989,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 67.31) (xy 138.43 67.31)
+			(xy 146.05 67.31) (xy 138.43 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3437,13 +4009,43 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 80.01) (xy 240.03 74.93)
+			(xy 217.17 72.39) (xy 217.17 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0fd0f92a-701d-4743-87ca-adeb02eab813")
+	)
+	(wire
+		(pts
+			(xy 198.12 67.31) (xy 187.96 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fd7e0a4-00b8-4eea-bb5d-f65721b503e4")
+	)
+	(wire
+		(pts
+			(xy 96.52 226.06) (xy 113.03 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11297b56-5385-40d4-ace3-e2fddadf44e8")
+	)
+	(wire
+		(pts
+			(xy 95.25 135.89) (xy 107.95 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17dd0fff-4c19-42cc-9180-09f74778ee0b")
 	)
 	(wire
 		(pts
@@ -3537,7 +4139,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 85.09) (xy 256.54 85.09)
+			(xy 187.96 77.47) (xy 175.26 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3557,6 +4159,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 158.75) (xy 74.93 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42728107-fdbe-4648-b166-c3d8b6a3ff71")
+	)
+	(wire
+		(pts
 			(xy 363.22 194.31) (xy 368.3 194.31)
 		)
 		(stroke
@@ -3567,13 +4179,23 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 74.93) (xy 269.24 77.47)
+			(xy 187.96 67.31) (xy 187.96 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4a2355c0-7fda-42b0-af79-c0e8f4965e54")
+	)
+	(wire
+		(pts
+			(xy 146.05 67.31) (xy 167.64 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f62fa49-12bf-4a42-be65-3fe79c92c994")
 	)
 	(wire
 		(pts
@@ -3617,7 +4239,17 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 82.55) (xy 256.54 85.09)
+			(xy 64.77 171.45) (xy 64.77 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61bdb6f5-f89a-4d6c-ab85-1f19f161b093")
+	)
+	(wire
+		(pts
+			(xy 175.26 74.93) (xy 175.26 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3637,6 +4269,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 135.89) (xy 63.5 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6409b884-c0bb-4e79-ae0e-9ae861af96f8")
+	)
+	(wire
+		(pts
 			(xy 29.21 50.8) (xy 59.69 50.8)
 		)
 		(stroke
@@ -3644,6 +4286,16 @@
 			(type default)
 		)
 		(uuid "6439a255-ed14-4688-846b-868d33ca5988")
+	)
+	(wire
+		(pts
+			(xy 87.63 106.68) (xy 64.77 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66531039-1717-4f38-9a7b-45a3393c7d44")
 	)
 	(wire
 		(pts
@@ -3707,6 +4359,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 93.98) (xy 76.2 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77c465dd-e55b-4aac-a7b3-5e2ff2a7abea")
+	)
+	(wire
+		(pts
 			(xy 73.66 45.72) (xy 73.66 55.88)
 		)
 		(stroke
@@ -3724,6 +4386,16 @@
 			(type default)
 		)
 		(uuid "7a526882-acb6-4b70-964c-aa4189526012")
+	)
+	(wire
+		(pts
+			(xy 67.31 226.06) (xy 88.9 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aee702c-f9e1-43ff-b577-a2eb6070f899")
 	)
 	(wire
 		(pts
@@ -3747,17 +4419,17 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 67.31) (xy 138.43 67.31)
+			(xy 63.5 123.19) (xy 74.93 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f82df35-63f7-4df5-ae04-df6f35fc82b6")
+		(uuid "7f6effb0-ff72-4bf1-aabf-cb06a4b67c94")
 	)
 	(wire
 		(pts
-			(xy 153.67 77.47) (xy 153.67 85.09)
+			(xy 146.05 77.47) (xy 146.05 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3774,6 +4446,16 @@
 			(type default)
 		)
 		(uuid "831ab69e-896a-4632-9915-7c0506740996")
+	)
+	(wire
+		(pts
+			(xy 64.77 106.68) (xy 64.77 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8588e23c-8554-407e-962b-7e17b3d9c3b9")
 	)
 	(wire
 		(pts
@@ -3837,7 +4519,17 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 85.09) (xy 256.54 95.25)
+			(xy 63.5 135.89) (xy 63.5 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c4b1008-a77c-4162-9b32-4cc81981cf17")
+	)
+	(wire
+		(pts
+			(xy 175.26 77.47) (xy 175.26 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3877,6 +4569,46 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 67.31) (xy 132.08 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9128e6b-5da6-4d5e-a2bb-3094f41220de")
+	)
+	(wire
+		(pts
+			(xy 67.31 215.9) (xy 67.31 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aba43769-24f1-46e1-a17f-fb4a654843fd")
+	)
+	(wire
+		(pts
+			(xy 87.63 171.45) (xy 64.77 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac6385e1-f623-4c24-8f14-3eea0abe99c6")
+	)
+	(wire
+		(pts
+			(xy 95.25 106.68) (xy 109.22 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae08d200-a689-4cae-beec-8846fd12ac21")
+	)
+	(wire
+		(pts
 			(xy 358.14 224.79) (xy 368.3 224.79)
 		)
 		(stroke
@@ -3887,13 +4619,23 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 82.55) (xy 228.6 87.63)
+			(xy 205.74 74.93) (xy 205.74 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "afbe70ac-0195-4697-a409-42f329cc74ab")
+	)
+	(wire
+		(pts
+			(xy 109.22 106.68) (xy 109.22 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b090f1b7-dd35-4e7e-abb6-ae25bcaf59a4")
 	)
 	(wire
 		(pts
@@ -3927,6 +4669,26 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 135.89) (xy 107.95 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc7da8f9-d048-420a-b443-1a6a8914a601")
+	)
+	(wire
+		(pts
+			(xy 113.03 213.36) (xy 109.22 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd3661a4-04ec-45dc-8322-6d7a45664d15")
+	)
+	(wire
+		(pts
 			(xy 368.3 201.93) (xy 368.3 224.79)
 		)
 		(stroke
@@ -3957,7 +4719,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 87.63) (xy 240.03 87.63)
+			(xy 205.74 80.01) (xy 217.17 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3987,13 +4749,23 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 87.63) (xy 228.6 96.52)
+			(xy 205.74 80.01) (xy 205.74 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d6225cad-ceb7-4633-8e97-7bb1e8d66e9f")
+	)
+	(wire
+		(pts
+			(xy 95.25 171.45) (xy 107.95 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6c85587-db75-4a16-96a5-e5fd317ae9ff")
 	)
 	(wire
 		(pts
@@ -4057,7 +4829,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 74.93) (xy 269.24 74.93)
+			(xy 182.88 67.31) (xy 187.96 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4084,6 +4856,26 @@
 			(type default)
 		)
 		(uuid "ee3eeda2-da21-48ea-a520-f2b8d20c2f16")
+	)
+	(wire
+		(pts
+			(xy 107.95 171.45) (xy 107.95 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f152eb9e-ece0-451a-8b3a-e3dd3c5b1661")
+	)
+	(wire
+		(pts
+			(xy 113.03 226.06) (xy 113.03 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f48a4adb-98bf-4e10-b166-214b90bfff0e")
 	)
 	(wire
 		(pts
@@ -4275,35 +5067,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 20.32 161.29 0)
+		(lib_id "Diode:1N4001")
+		(at 92.71 226.06 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0e288b74-95f7-444b-9a7b-fc00d9d93b27")
-		(property "Reference" "TP4"
-			(at 22.86 156.7179 0)
+		(uuid "25b05d7e-83ea-4941-9cdb-b75960d39512")
+		(property "Reference" "D9"
+			(at 92.71 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 22.86 159.2579 0)
+		(property "Value" "1N4001"
+			(at 92.71 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 25.4 161.29 0)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 92.71 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4311,8 +5101,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 25.4 161.29 0)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 92.71 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4320,89 +5110,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 20.32 161.29 0)
+		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
+			(at 92.71 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Sim.Device" "D"
+			(at 92.71 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 92.71 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9b486188-5eff-4f9b-8d3d-e8c93a86086f")
 		)
 		(pin "1"
-			(uuid "3be5e467-9c1b-4c64-91e8-0d0fc90c21fd")
+			(uuid "5b3ebf47-6cd8-44aa-872a-fbf481981eb8")
 		)
 		(instances
 			(project "Vaughn_HPC"
 				(path "/93c2951a-8c49-47b9-a2da-5f3676181e30"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 20.32 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "200e0e51-4f17-42b1-b106-63b58d29d4b9")
-		(property "Reference" "TP1"
-			(at 22.86 126.2379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 22.86 128.7779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 20.32 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1332439-d52f-42bb-92a4-5d2ab9737377")
-		)
-		(instances
-			(project ""
-				(path "/93c2951a-8c49-47b9-a2da-5f3676181e30"
-					(reference "TP1")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -4490,6 +5234,249 @@
 		)
 	)
 	(symbol
+		(lib_id "sugar:AZ943-1CH-24DE")
+		(at 74.93 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32abbde2-a9c1-4eac-9fe9-08287df35b22")
+		(property "Reference" "J3"
+			(at 91.44 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AZ943-1CH-24DE"
+			(at 91.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AZ9431CH24DE"
+			(at 104.14 215.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.azettler.com/pdfs/az943.pdf"
+			(at 104.14 315.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "15A SUGAR CUBE RELAY"
+			(at 74.93 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "15.95"
+			(at 104.14 515.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Zettler Group"
+			(at 104.14 615.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AZ943-1CH-24DE"
+			(at 104.14 715.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 104.14 815.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 104.14 915.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 104.14 1015.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 104.14 1115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "3eadbe18-bba2-4fa7-986f-c416d49995e8")
+		)
+		(pin "1"
+			(uuid "fba61cf0-880d-44ea-8382-e31b599d2014")
+		)
+		(pin "5"
+			(uuid "5eb1898b-f32a-4b98-90e1-c9aa559f8ff7")
+		)
+		(pin "2"
+			(uuid "86d5f542-acda-4c2c-9dd3-a4f6557b4164")
+		)
+		(pin "3"
+			(uuid "7873fbda-f450-46ec-bd8c-20289b9266e3")
+		)
+		(instances
+			(project "Vaughn_HPC"
+				(path "/93c2951a-8c49-47b9-a2da-5f3676181e30"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 34.29 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32efa05a-fbae-4324-bd07-0fea8eda781e")
+		(property "Reference" "Q3"
+			(at 39.37 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 39.37 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 39.37 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 34.29 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 34.29 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 34.29 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 34.29 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "15669cc1-dad7-4c9e-9971-783596f5c54a")
+		)
+		(pin "3"
+			(uuid "2575219e-ad42-45ae-a4db-3f301158a6e4")
+		)
+		(pin "1"
+			(uuid "d619e2ed-2889-49ad-9437-91fd4e13684f")
+		)
+		(instances
+			(project "Vaughn_HPC"
+				(path "/93c2951a-8c49-47b9-a2da-5f3676181e30"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 191.77 189.23 90)
 		(unit 1)
@@ -4558,35 +5545,53 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 20.32 175.26 0)
+		(lib_id "sugar:AZ943-1CH-24DE")
+		(at 76.2 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4a8eb189-c0c1-484f-817c-21695716aac5")
-		(property "Reference" "TP5"
-			(at 22.86 170.6879 0)
+		(uuid "50381406-c237-4598-b3ea-91e37f0cb81f")
+		(property "Reference" "J2"
+			(at 92.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 22.86 173.2279 0)
+		(property "Value" "AZ943-1CH-24DE"
+			(at 92.71 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 25.4 175.26 0)
+		(property "Footprint" "AZ9431CH24DE"
+			(at 105.41 186.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.azettler.com/pdfs/az943.pdf"
+			(at 105.41 286.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "15A SUGAR CUBE RELAY"
+			(at 76.2 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4594,48 +5599,112 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 25.4 175.26 0)
+		(property "Height" "15.95"
+			(at 105.41 486.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 20.32 175.26 0)
+		(property "Manufacturer_Name" "Zettler Group"
+			(at 105.41 586.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
+		)
+		(property "Manufacturer_Part_Number" "AZ943-1CH-24DE"
+			(at 105.41 686.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 105.41 786.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 105.41 886.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 105.41 986.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 105.41 1086.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ae71b6a0-c5cb-4b51-a72a-d2aa64e60026")
 		)
 		(pin "1"
-			(uuid "f42324b9-4330-494a-a1ab-3faaadf204a4")
+			(uuid "d995fa26-7afe-4ecd-950e-bf3f3be67d83")
+		)
+		(pin "5"
+			(uuid "dd6de531-b7d6-4966-90a2-0e98497d8f05")
+		)
+		(pin "2"
+			(uuid "30d2e1e3-c148-4535-92d4-4944c6afea19")
+		)
+		(pin "3"
+			(uuid "50c75176-49d0-49a8-afe0-4e3262b331ac")
 		)
 		(instances
-			(project "Vaughn_HPC"
+			(project ""
 				(path "/93c2951a-8c49-47b9-a2da-5f3676181e30"
-					(reference "TP5")
+					(reference "J2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 20.32 151.13 0)
+		(lib_id "Transistor_BJT:2N3904")
+		(at 34.29 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4f9393f0-52b8-4899-bbba-44bdb4ffd2a1")
-		(property "Reference" "TP3"
-			(at 22.86 146.5579 0)
+		(uuid "51bbcc33-cf70-473e-8943-0a3c2aa22e69")
+		(property "Reference" "Q1"
+			(at 39.37 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4643,8 +5712,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 22.86 149.0979 0)
+		(property "Value" "2N3904"
+			(at 39.37 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4652,8 +5721,29 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 25.4 151.13 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 39.37 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 34.29 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 34.29 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4661,8 +5751,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 25.4 151.13 0)
+		(property "Sim.Device" "NPN"
+			(at 34.29 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4670,22 +5760,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 20.32 151.13 0)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 34.29 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "2"
+			(uuid "f7ca21c7-a201-47b1-a550-075333f8fa47")
+		)
+		(pin "3"
+			(uuid "5d285636-bf32-4780-b79f-fdd1812f5e71")
 		)
 		(pin "1"
-			(uuid "5a288533-87b9-44c7-a102-7ac4d4d599c5")
+			(uuid "c2927f46-1b1e-491d-88bd-95f18d8e9859")
 		)
 		(instances
-			(project "Vaughn_HPC"
+			(project ""
 				(path "/93c2951a-8c49-47b9-a2da-5f3676181e30"
-					(reference "TP3")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -4693,7 +5789,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 269.24 81.28 0)
+		(at 187.96 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4702,7 +5798,7 @@
 		(fields_autoplaced yes)
 		(uuid "5222f9bf-4737-459e-b563-7268f351db46")
 		(property "Reference" "C2"
-			(at 273.05 80.0099 0)
+			(at 191.77 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4711,7 +5807,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 273.05 82.5499 0)
+			(at 191.77 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4720,7 +5816,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.2052 85.09 0)
+			(at 188.9252 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4729,7 +5825,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 269.24 81.28 0)
+			(at 187.96 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4738,7 +5834,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 269.24 81.28 0)
+			(at 187.96 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4762,8 +5858,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 33.02 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "546b5068-0cd6-4f85-aeaa-06cd36b02697")
+		(property "Reference" "Q5"
+			(at 38.1 214.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 38.1 217.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 38.1 217.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 33.02 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 33.02 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 33.02 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 33.02 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9105c9c0-ea4d-45ea-8652-83b73eb298fd")
+		)
+		(pin "3"
+			(uuid "26a168a9-3cd4-48d1-b304-308e1b82ee48")
+		)
+		(pin "1"
+			(uuid "aeedfdc1-0ba4-4919-b28a-c76187eb1093")
+		)
+		(instances
+			(project "Vaughn_HPC"
+				(path "/93c2951a-8c49-47b9-a2da-5f3676181e30"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
-		(at 199.39 82.55 0)
+		(at 321.31 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4772,7 +5962,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f51f614-e3cd-490c-997f-20052fcb54b2")
 		(property "Reference" "J1"
-			(at 200.025 72.39 0)
+			(at 321.945 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4780,7 +5970,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06_Pin"
-			(at 200.025 74.93 0)
+			(at 321.945 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4788,7 +5978,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 82.55 0)
+			(at 321.31 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4797,7 +5987,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 82.55 0)
+			(at 321.31 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4806,7 +5996,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 199.39 82.55 0)
+			(at 321.31 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4911,7 +6101,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:LM7805_TO220")
-		(at 228.6 74.93 0)
+		(at 205.74 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4920,7 +6110,7 @@
 		(fields_autoplaced yes)
 		(uuid "6743b3f9-56db-4cd7-81f0-189e5e7880fa")
 		(property "Reference" "U1"
-			(at 228.6 68.58 0)
+			(at 205.74 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4928,7 +6118,7 @@
 			)
 		)
 		(property "Value" "LM7805_TO220"
-			(at 228.6 71.12 0)
+			(at 205.74 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4936,7 +6126,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 228.6 69.215 0)
+			(at 205.74 61.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4946,7 +6136,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
-			(at 228.6 76.2 0)
+			(at 205.74 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4955,7 +6145,7 @@
 			)
 		)
 		(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"
-			(at 228.6 74.93 0)
+			(at 205.74 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4976,6 +6166,241 @@
 			(project ""
 				(path "/93c2951a-8c49-47b9-a2da-5f3676181e30"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sugar:AZ943-1CH-24DE")
+		(at 74.93 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "680ffc4a-e5a6-425c-86d3-881e9639ad03")
+		(property "Reference" "J4"
+			(at 91.44 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AZ943-1CH-24DE"
+			(at 91.44 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AZ9431CH24DE"
+			(at 104.14 251.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.azettler.com/pdfs/az943.pdf"
+			(at 104.14 351.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "15A SUGAR CUBE RELAY"
+			(at 74.93 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "15.95"
+			(at 104.14 551.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Zettler Group"
+			(at 104.14 651.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AZ943-1CH-24DE"
+			(at 104.14 751.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 104.14 851.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 104.14 951.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 104.14 1051.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 104.14 1151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "fc12f5c1-0e64-49c2-9d1e-0f27611951ae")
+		)
+		(pin "1"
+			(uuid "b807092a-f875-43d1-ac4c-a539e16226c7")
+		)
+		(pin "5"
+			(uuid "a86194bb-3e5d-4f21-a3c8-73f7b9671d07")
+		)
+		(pin "2"
+			(uuid "a3388038-4347-4295-8aea-5e85613cb215")
+		)
+		(pin "3"
+			(uuid "a01c3e29-51c2-414b-8f31-feba2e36cf41")
+		)
+		(instances
+			(project "Vaughn_HPC"
+				(path "/93c2951a-8c49-47b9-a2da-5f3676181e30"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 91.44 135.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b9d1b14-0ef9-45ed-83ee-bd66eb5e0f02")
+		(property "Reference" "D6"
+			(at 91.44 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 91.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 91.44 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 91.44 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
+			(at 91.44 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 91.44 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 91.44 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a90597c-37bd-47e0-9c32-c3910262ce20")
+		)
+		(pin "1"
+			(uuid "932bd860-89a7-4852-9197-0966f8006696")
+		)
+		(instances
+			(project "Vaughn_HPC"
+				(path "/93c2951a-8c49-47b9-a2da-5f3676181e30"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -5043,73 +6468,6 @@
 			(project ""
 				(path "/93c2951a-8c49-47b9-a2da-5f3676181e30"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 39.37 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c28320e-df34-4da9-b04f-5759ef41950d")
-		(property "Reference" "TP10"
-			(at 41.91 146.5579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 41.91 149.0979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 39.37 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c14d8d5-e0e8-476f-9d10-31f0f9c0d406")
-		)
-		(instances
-			(project "Vaughn_HPC"
-				(path "/93c2951a-8c49-47b9-a2da-5f3676181e30"
-					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -5436,7 +6794,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 228.6 96.52 0)
+		(at 205.74 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5445,7 +6803,7 @@
 		(fields_autoplaced yes)
 		(uuid "950f840f-8ee9-4817-961e-0988461d0efb")
 		(property "Reference" "#PWR02"
-			(at 228.6 102.87 0)
+			(at 205.74 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5454,7 +6812,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.6 101.6 0)
+			(at 205.74 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5462,7 +6820,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 96.52 0)
+			(at 205.74 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5471,7 +6829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 96.52 0)
+			(at 205.74 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5480,7 +6838,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 96.52 0)
+			(at 205.74 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5501,75 +6859,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 20.32 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9badd0e9-360b-4538-9b25-6e8e6efd7f23")
-		(property "Reference" "TP6"
-			(at 22.86 183.3879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 22.86 185.9279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 20.32 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c56dfc4-3d15-4c6a-a8f1-bd2eff1d892a")
-		)
-		(instances
-			(project "Vaughn_HPC"
-				(path "/93c2951a-8c49-47b9-a2da-5f3676181e30"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:LM7812_TO220")
-		(at 256.54 74.93 0)
+		(at 175.26 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5578,7 +6869,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0caa5a5-ecac-467f-b534-c1cdc5a10fb7")
 		(property "Reference" "U2"
-			(at 256.54 68.58 0)
+			(at 175.26 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5586,7 +6877,7 @@
 			)
 		)
 		(property "Value" "LM7812_TO220"
-			(at 256.54 71.12 0)
+			(at 175.26 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,7 +6885,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 256.54 69.215 0)
+			(at 175.26 61.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5604,7 +6895,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
-			(at 256.54 76.2 0)
+			(at 175.26 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5613,7 +6904,7 @@
 			)
 		)
 		(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 12V, TO-220"
-			(at 256.54 74.93 0)
+			(at 175.26 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5858,75 +7149,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3dc53db-1118-487b-b59e-d41ebd21c311")
-		(property "Reference" "TP7"
-			(at 40.64 183.3879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 40.64 185.9279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 38.1 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31647df1-d94c-4b0c-bc51-6cf0a823ef4f")
-		)
-		(instances
-			(project "Vaughn_HPC"
-				(path "/93c2951a-8c49-47b9-a2da-5f3676181e30"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 153.67 85.09 0)
+		(at 146.05 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5935,7 +7159,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8640da4-82f9-4f92-8ec8-33a8d7916766")
 		(property "Reference" "#PWR03"
-			(at 153.67 91.44 0)
+			(at 146.05 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5944,7 +7168,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 90.17 0)
+			(at 146.05 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5952,7 +7176,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 85.09 0)
+			(at 146.05 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5961,7 +7185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 85.09 0)
+			(at 146.05 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5970,7 +7194,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 85.09 0)
+			(at 146.05 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6058,7 +7282,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 256.54 95.25 0)
+		(at 175.26 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6067,7 +7291,7 @@
 		(fields_autoplaced yes)
 		(uuid "bfdedc7d-d079-4aef-980a-9b1b82cf8240")
 		(property "Reference" "#PWR01"
-			(at 256.54 101.6 0)
+			(at 175.26 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6076,7 +7300,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 256.54 100.33 0)
+			(at 175.26 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6084,7 +7308,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 95.25 0)
+			(at 175.26 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6093,7 +7317,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 95.25 0)
+			(at 175.26 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6102,7 +7326,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 95.25 0)
+			(at 175.26 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6191,35 +7415,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 39.37 161.29 0)
+		(lib_id "Diode:1N4001")
+		(at 91.44 171.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c5e135dd-f7a8-4d3b-b800-7fb07a05e515")
-		(property "Reference" "TP9"
-			(at 41.91 156.7179 0)
+		(uuid "c6a8dc5b-ff07-4f53-9d1a-db769aa96279")
+		(property "Reference" "D7"
+			(at 91.44 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 41.91 159.2579 0)
+		(property "Value" "1N4001"
+			(at 91.44 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 44.45 161.29 0)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 91.44 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6227,8 +7449,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 44.45 161.29 0)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 91.44 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6236,22 +7458,137 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 39.37 161.29 0)
+		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
+			(at 91.44 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Sim.Device" "D"
+			(at 91.44 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 91.44 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2cdb2122-1952-4219-a1e2-05f0ca5f2aef")
 		)
 		(pin "1"
-			(uuid "a72f18db-5f53-47dc-8625-2dbff598a126")
+			(uuid "4fca31b8-d0fe-4822-9b70-2afbb0845778")
 		)
 		(instances
 			(project "Vaughn_HPC"
 				(path "/93c2951a-8c49-47b9-a2da-5f3676181e30"
-					(reference "TP9")
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 34.29 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9d5b928-d1b5-40f6-b923-e1cce18fb521")
+		(property "Reference" "Q2"
+			(at 39.37 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 39.37 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 39.37 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 34.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 34.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 34.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 34.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1465ef23-2ff1-4123-a31e-c828948b0cab")
+		)
+		(pin "3"
+			(uuid "b5e36105-aba8-4938-9fee-99a2bddde89e")
+		)
+		(pin "1"
+			(uuid "25e54c7c-0645-41b1-b513-eee6335c3864")
+		)
+		(instances
+			(project "Vaughn_HPC"
+				(path "/93c2951a-8c49-47b9-a2da-5f3676181e30"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -6411,7 +7748,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 153.67 73.66 0)
+		(at 146.05 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6420,7 +7757,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7028c7c-bb80-4ddc-a488-49cfe1412522")
 		(property "Reference" "C1"
-			(at 157.48 71.5009 0)
+			(at 149.86 71.5009 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6429,7 +7766,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 157.48 74.0409 0)
+			(at 149.86 74.0409 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6438,7 +7775,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.6352 77.47 0)
+			(at 147.0152 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6447,7 +7784,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 73.66 0)
+			(at 146.05 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6456,7 +7793,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 153.67 73.66 0)
+			(at 146.05 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6636,73 +7973,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 20.32 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3338311-968a-41c7-a84d-ad95645c0dbb")
-		(property "Reference" "TP2"
-			(at 22.86 135.1279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 22.86 137.6679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 20.32 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39e3fb32-8cd9-454b-9c82-e9c349955947")
-		)
-		(instances
-			(project "Vaughn_HPC"
-				(path "/93c2951a-8c49-47b9-a2da-5f3676181e30"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Network08")
 		(at 384.81 167.64 270)
 		(unit 1)
@@ -6792,35 +8062,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 38.1 175.26 0)
+		(lib_id "Diode:1N4001")
+		(at 91.44 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "eb69b946-62be-4288-af1a-33ee5f7da229")
-		(property "Reference" "TP8"
-			(at 40.64 170.6879 0)
+		(uuid "eaa487de-517c-414d-9ca0-827ec73875ea")
+		(property "Reference" "D5"
+			(at 91.44 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 40.64 173.2279 0)
+		(property "Value" "1N4001"
+			(at 91.44 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 43.18 175.26 0)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 91.44 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6828,8 +8096,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 43.18 175.26 0)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 91.44 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6837,22 +8105,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 38.1 175.26 0)
+		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
+			(at 91.44 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Sim.Device" "D"
+			(at 91.44 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 91.44 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "267bfd47-3e33-49f6-b8e0-0e13029f53bb")
 		)
 		(pin "1"
-			(uuid "f325c002-c7a2-4fe4-80e3-3e4f75772210")
+			(uuid "4fdf12bb-20a7-4bcb-a224-c750c5134ec2")
 		)
 		(instances
 			(project "Vaughn_HPC"
 				(path "/93c2951a-8c49-47b9-a2da-5f3676181e30"
-					(reference "TP8")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -6946,7 +8235,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 240.03 83.82 0)
+		(at 217.17 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6955,7 +8244,7 @@
 		(fields_autoplaced yes)
 		(uuid "f054f684-bbfe-463f-85bf-22afbc629202")
 		(property "Reference" "C3"
-			(at 243.84 82.5499 0)
+			(at 220.98 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6964,7 +8253,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 243.84 85.0899 0)
+			(at 220.98 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6973,7 +8262,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.9952 87.63 0)
+			(at 218.1352 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6982,7 +8271,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 83.82 0)
+			(at 217.17 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6991,7 +8280,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 240.03 83.82 0)
+			(at 217.17 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7009,6 +8298,152 @@
 			(project ""
 				(path "/93c2951a-8c49-47b9-a2da-5f3676181e30"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cubey:AZ2100-1A-12DEF")
+		(at 76.2 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f262b2f2-44e4-4283-a3f5-f3438b77a0af")
+		(property "Reference" "K1"
+			(at 92.71 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AZ2100-1A-12DEF"
+			(at 92.71 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AZ21001A12DEF"
+			(at 105.41 308.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.azettler.com/pdfs/az2100.pdf"
+			(at 105.41 408.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Relay SPST-NO (1 Form A) 12VDC Coil Through Hole"
+			(at 76.2 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "28.194"
+			(at 105.41 608.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Zettler Group"
+			(at 105.41 708.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AZ2100-1A-12DEF"
+			(at 105.41 808.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 105.41 908.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 105.41 1008.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 105.41 1108.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 105.41 1208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c7b18aad-db09-4d96-9504-8b1a1751d64b")
+		)
+		(pin "4"
+			(uuid "a0e84e92-cf2d-4259-a5ac-db41dd51c452")
+		)
+		(pin "3"
+			(uuid "5a284e79-ba09-4fc1-b8ff-abd669b0d7e7")
+		)
+		(pin "1"
+			(uuid "5a139121-b63c-4f20-9582-c146f477983c")
+		)
+		(instances
+			(project ""
+				(path "/93c2951a-8c49-47b9-a2da-5f3676181e30"
+					(reference "K1")
 					(unit 1)
 				)
 			)
