@@ -7,3 +7,7 @@ this Ultimate Power development board will power all your LEET ELectrical Engine
 But we lost the schematic, and need to rewrite it. 
 
 <img src="Photos/wip.png">
+
+Status:
+found all the cad models, and parts. <br>
+now its time to tediously trace traces. 
