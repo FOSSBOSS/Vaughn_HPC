@@ -332,6 +332,355 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Screw_Terminal_01x05"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x05"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x05_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 5.4102) (xy 0.3302 4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 5.588) (xy 0.508 4.7498)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -4.572) (xy 0.508 -5.4102)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3560,6 +3909,210 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:BF244A"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BF244A"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BF244x.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "50mA Id, 30V Vgs, N-Channel FET Transistor, TO-92"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel FET Transistor Low Voltage"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BF244A_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.016 0.381) (xy -1.016 -0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.397) (xy 0.254 1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.397) (xy 0.254 -1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BF244A_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "cubey:AZ2100-1A-12DEF"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4876,6 +5429,12 @@
 		(uuid "091c03e6-fc69-4842-bfa0-93c434aba38d")
 	)
 	(junction
+		(at 218.44 317.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ccb322d-f433-4683-84f4-3572f3f2e96d")
+	)
+	(junction
 		(at 200.66 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4916,6 +5475,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "333affb2-6a25-4235-8691-0d39b2cc87a6")
+	)
+	(junction
+		(at 218.44 302.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35deb539-6b52-4b70-95d3-7a214352f8c9")
 	)
 	(junction
 		(at 124.46 66.04)
@@ -4996,6 +5561,12 @@
 		(uuid "b7fd930e-172a-4384-8e6d-64b291a309ee")
 	)
 	(junction
+		(at 218.44 288.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca40d5de-af6a-4985-a0b7-931a19ec0594")
+	)
+	(junction
 		(at 167.64 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5047,6 +5618,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 302.26) (xy 247.65 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0432033a-b9bd-4e80-92f4-6e974c945084")
+	)
+	(wire
+		(pts
 			(xy 306.07 245.11) (xy 327.66 245.11)
 		)
 		(stroke
@@ -5077,6 +5658,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 288.29) (xy 218.44 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07e8f271-9391-4748-b215-63e8d0f4af18")
+	)
+	(wire
+		(pts
 			(xy 264.16 77.47) (xy 267.97 77.47)
 		)
 		(stroke
@@ -5094,6 +5685,16 @@
 			(type default)
 		)
 		(uuid "0b2e9bcf-b9a4-4c52-a688-27dc0641b180")
+	)
+	(wire
+		(pts
+			(xy 240.03 290.83) (xy 247.65 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ba403b0-3eb1-48f2-9d5d-ecc9cfb1afc2")
 	)
 	(wire
 		(pts
@@ -5237,6 +5838,26 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 171.45) (xy 312.42 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f5c8aae-bce5-497d-9444-1e0c38415501")
+	)
+	(wire
+		(pts
+			(xy 218.44 302.26) (xy 218.44 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22070c57-80d4-43e7-9698-1be12fab7a7c")
+	)
+	(wire
+		(pts
 			(xy 306.07 250.19) (xy 327.66 250.19)
 		)
 		(stroke
@@ -5254,6 +5875,16 @@
 			(type default)
 		)
 		(uuid "23daee3c-4246-49dd-a26f-a5fa79b0e74f")
+	)
+	(wire
+		(pts
+			(xy 201.93 278.13) (xy 204.47 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27c8588b-a8f9-4a99-9879-330059c589b9")
 	)
 	(wire
 		(pts
@@ -5384,6 +6015,16 @@
 			(type default)
 		)
 		(uuid "3b00d04d-6d8d-49f6-a64a-b000633e3ac5")
+	)
+	(wire
+		(pts
+			(xy 201.93 292.1) (xy 207.01 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b23eb16-6e88-4015-8bb5-86e403507b19")
 	)
 	(wire
 		(pts
@@ -5667,6 +6308,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 297.18) (xy 194.31 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d78aad9-9300-4146-9c19-81a7000cc603")
+	)
+	(wire
+		(pts
 			(xy 185.42 161.29) (xy 217.17 161.29)
 		)
 		(stroke
@@ -5734,6 +6385,16 @@
 			(type default)
 		)
 		(uuid "77ed08ea-0855-4fab-832b-1d19f8129992")
+	)
+	(wire
+		(pts
+			(xy 200.66 307.34) (xy 204.47 307.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7906ad38-2681-4723-b5fa-4f9ef5972d1e")
 	)
 	(wire
 		(pts
@@ -5907,6 +6568,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 293.37) (xy 247.65 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ab967e8-f922-4a6c-8585-f34e0ea781e1")
+	)
+	(wire
+		(pts
 			(xy 22.86 273.05) (xy 22.86 280.67)
 		)
 		(stroke
@@ -5974,6 +6645,16 @@
 			(type default)
 		)
 		(uuid "92ad190e-b00a-4d37-b3cf-82bb22e5a9e1")
+	)
+	(wire
+		(pts
+			(xy 237.49 295.91) (xy 247.65 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c3ae87f-bde4-40ea-ba77-1428e257635e")
 	)
 	(wire
 		(pts
@@ -6097,6 +6778,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 312.42) (xy 193.04 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4abec9e-2a23-4f61-a9ef-0d9259c457d8")
+	)
+	(wire
+		(pts
 			(xy 81.28 50.8) (xy 85.09 50.8)
 		)
 		(stroke
@@ -6154,6 +6845,16 @@
 			(type default)
 		)
 		(uuid "aba43769-24f1-46e1-a17f-fb4a654843fd")
+	)
+	(wire
+		(pts
+			(xy 201.93 288.29) (xy 218.44 288.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abf31e63-29a5-4113-9e4e-357b478f6bb1")
 	)
 	(wire
 		(pts
@@ -6267,6 +6968,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 274.32) (xy 218.44 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b53bd635-ca94-4cc0-bace-c7748eece448")
+	)
+	(wire
+		(pts
 			(xy 184.15 227.33) (xy 186.69 227.33)
 		)
 		(stroke
@@ -6337,6 +7048,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 274.32) (xy 218.44 288.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc8f0c8d-0f65-4680-bffa-527e73d11f13")
+	)
+	(wire
+		(pts
 			(xy 115.57 367.03) (xy 105.41 367.03)
 		)
 		(stroke
@@ -6354,6 +7075,16 @@
 			(type default)
 		)
 		(uuid "be173cfb-b687-4f6b-a4cb-c59bf3199578")
+	)
+	(wire
+		(pts
+			(xy 308.61 173.99) (xy 312.42 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf86c61d-69ab-41f8-b83e-1cf0f93e3039")
 	)
 	(wire
 		(pts
@@ -6517,6 +7248,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 302.26) (xy 247.65 300.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5234de6-28e0-496a-8149-2524907f0836")
+	)
+	(wire
+		(pts
 			(xy 294.64 43.18) (xy 334.01 43.18)
 		)
 		(stroke
@@ -6554,6 +7295,16 @@
 			(type default)
 		)
 		(uuid "d6c85587-db75-4a16-96a5-e5fd317ae9ff")
+	)
+	(wire
+		(pts
+			(xy 200.66 264.16) (xy 204.47 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7969555-681b-4aba-b1dc-856e8bfac8d3")
 	)
 	(wire
 		(pts
@@ -6614,6 +7365,16 @@
 			(type default)
 		)
 		(uuid "e449339c-e8bc-454b-bafe-c2b7c2e4208e")
+	)
+	(wire
+		(pts
+			(xy 237.49 298.45) (xy 247.65 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e84900ba-50fc-45db-8b8d-bb5af1892efa")
 	)
 	(wire
 		(pts
@@ -6687,6 +7448,26 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 317.5) (xy 218.44 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef97019b-d837-44d3-bfcd-fbc5688a186d")
+	)
+	(wire
+		(pts
+			(xy 201.93 302.26) (xy 218.44 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0442524-98cd-424a-a498-df0b34aae36e")
+	)
+	(wire
+		(pts
 			(xy 100.33 382.27) (xy 106.68 382.27)
 		)
 		(stroke
@@ -6714,6 +7495,16 @@
 			(type default)
 		)
 		(uuid "f2387edf-afe3-46d6-b89c-9778551c2bbe")
+	)
+	(wire
+		(pts
+			(xy 218.44 317.5) (xy 218.44 318.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3cd2138-a6e1-4e30-8f97-5831ab57dd91")
 	)
 	(wire
 		(pts
@@ -6805,6 +7596,16 @@
 		)
 		(uuid "fe91e9b2-1e02-4dc1-832b-c5e58583ba9a")
 	)
+	(label "mcu22_q8_gate"
+		(at 173.99 312.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02b10433-61d2-4af6-80d3-e2c44eed68f8")
+	)
 	(label "prog1_j14"
 		(at 306.07 35.56 0)
 		(effects
@@ -6835,6 +7636,16 @@
 		)
 		(uuid "0d4ea771-83fe-451f-9051-c87d215bc8c0")
 	)
+	(label "q5_src"
+		(at 204.47 264.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16a4b5cf-cf0e-40fa-b79f-0d7cb98886e3")
+	)
 	(label "RP1_1_mcu6"
 		(at 341.63 273.05 0)
 		(effects
@@ -6854,6 +7665,16 @@
 			(justify left bottom)
 		)
 		(uuid "18c31c75-4442-42c8-8e57-f2752d82d985")
+	)
+	(label "mcu22_q8_gate"
+		(at 312.42 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b61ee76-970e-402d-9288-6f7b84d84901")
 	)
 	(label "R7_j26"
 		(at 321.31 68.58 0)
@@ -6885,6 +7706,16 @@
 		)
 		(uuid "309d4129-f7aa-44f4-bf27-9e6d902876ea")
 	)
+	(label "q7_src"
+		(at 237.49 298.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33e72940-a279-4807-9d73-abd82e75b1b3")
+	)
 	(label "RP2_3_q1_Emitter"
 		(at 43.18 394.97 0)
 		(effects
@@ -6894,6 +7725,16 @@
 			(justify left bottom)
 		)
 		(uuid "3fa04439-026e-4d7c-9d28-025e4a090ede")
+	)
+	(label "q5_src"
+		(at 237.49 293.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42539b4c-6e5d-4915-be2d-15933ab191ba")
 	)
 	(label "12V"
 		(at 96.52 326.39 0)
@@ -6914,6 +7755,16 @@
 			(justify left bottom)
 		)
 		(uuid "51c33fa8-19c3-463b-b1d8-2d40e6925592")
+	)
+	(label "q6_src"
+		(at 204.47 278.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "595690fa-0e02-4f45-9634-6492a908cc94")
 	)
 	(label "RP1_4_q3_base"
 		(at 306.07 245.11 0)
@@ -6995,6 +7846,26 @@
 		)
 		(uuid "7d10612f-eb2f-40e1-8986-bcf84b51d017")
 	)
+	(label "q6_src"
+		(at 237.49 295.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "908c6dee-1c5c-4a60-a4d1-dbf58cc73bec")
+	)
+	(label "12v"
+		(at 240.03 290.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "93ce0f5d-7a11-49a2-a17c-4c60bfff63bf")
+	)
 	(label "mcu9_array1"
 		(at 203.2 179.07 0)
 		(effects
@@ -7024,6 +7895,16 @@
 			(justify left bottom)
 		)
 		(uuid "a7b0a6f7-40a1-4850-a838-27d4a1189d9e")
+	)
+	(label "q7_src"
+		(at 207.01 292.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4e1ede9-f99d-4ebb-8edd-84bbcb7b1645")
 	)
 	(label "12V"
 		(at 95.25 209.55 0)
@@ -7064,6 +7945,36 @@
 			(justify left bottom)
 		)
 		(uuid "c718e05b-25d1-43ed-91ce-3c5f33b3d3a7")
+	)
+	(label "mcu23_q7_gate"
+		(at 175.26 297.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9af570e-6aa1-4f7d-a1bd-11bbad2d1d48")
+	)
+	(label "q8_src"
+		(at 237.49 302.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cebd8965-b740-43c3-8109-49c20c5fb0cc")
+	)
+	(label "mcu23_q7_gate"
+		(at 312.42 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d68d6689-87bf-44a1-9a35-d7fd5575512d")
 	)
 	(label "12V"
 		(at 238.76 77.47 0)
@@ -7114,6 +8025,16 @@
 			(justify left bottom)
 		)
 		(uuid "fb8c17ba-78a6-465d-8aa7-c9137bd03a56")
+	)
+	(label "q8_src"
+		(at 204.47 307.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc28ffa5-8921-42d9-aa0c-cd7ffb7f4a98")
 	)
 	(symbol
 		(lib_id "Device:R_Network08")
@@ -8160,6 +9081,72 @@
 			(project "Vaughn_HPC"
 				(path "/93c2951a-8c49-47b9-a2da-5f3676181e30"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 218.44 318.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c142e97-4880-49b4-9c2e-28f9c5c38df6")
+		(property "Reference" "#PWR011"
+			(at 218.44 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "887330b0-0919-4e80-af22-71fe03c56b0b")
+		)
+		(instances
+			(project ""
+				(path "/93c2951a-8c49-47b9-a2da-5f3676181e30"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -10519,6 +11506,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x05")
+		(at 252.73 295.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8dd5a639-2f1c-4627-ab7f-056789d9e304")
+		(property "Reference" "JP4"
+			(at 255.27 294.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x05"
+			(at 255.27 297.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 252.73 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72231df5-2fae-4f1a-9848-3664d769ad08")
+		)
+		(pin "5"
+			(uuid "dd0d15b8-d256-4efc-9836-dc4b85d12f4c")
+		)
+		(pin "2"
+			(uuid "86da324c-15d5-47bf-a66e-98a321b60f95")
+		)
+		(pin "3"
+			(uuid "9e25817f-3204-4ada-bed4-eb526efc64ab")
+		)
+		(pin "4"
+			(uuid "044d5cd1-9209-4be8-8b4d-9da934bcb658")
+		)
+		(instances
+			(project ""
+				(path "/93c2951a-8c49-47b9-a2da-5f3676181e30"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "spade2:1287")
 		(at 72.39 203.2 0)
 		(unit 1)
@@ -11278,6 +12344,82 @@
 			(project "Vaughn_HPC"
 				(path "/93c2951a-8c49-47b9-a2da-5f3676181e30"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BF244A")
+		(at 199.39 283.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a609253c-bd9e-43f2-848e-0bf5fcf2de2c")
+		(property "Reference" "Q6"
+			(at 204.47 281.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BF244A"
+			(at 204.47 284.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 204.47 285.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BF244x.pdf"
+			(at 204.47 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50mA Id, 30V Vgs, N-Channel FET Transistor, TO-92"
+			(at 199.39 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2208fb03-33f3-4af3-aff1-b668fe457080")
+		)
+		(pin "1"
+			(uuid "d891e2c3-0fee-455f-8066-95ed898500b9")
+		)
+		(pin "2"
+			(uuid "704ab070-a2f5-48cf-8e4d-26cdc47f2024")
+		)
+		(instances
+			(project "Vaughn_HPC"
+				(path "/93c2951a-8c49-47b9-a2da-5f3676181e30"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -12280,6 +13422,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BF244A")
+		(at 198.12 269.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd593a94-2705-414d-ae85-0a4d00fe6684")
+		(property "Reference" "Q5"
+			(at 203.2 267.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BF244A"
+			(at 203.2 270.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 203.2 271.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BF244x.pdf"
+			(at 203.2 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50mA Id, 30V Vgs, N-Channel FET Transistor, TO-92"
+			(at 198.12 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "af5fdd6d-7273-4a0a-8457-0d5131d70855")
+		)
+		(pin "1"
+			(uuid "2a5b84d5-9dc5-4c97-8e7d-8e0366aa12db")
+		)
+		(pin "2"
+			(uuid "c9fe950c-4957-4002-ab1c-af1ad8133ca8")
+		)
+		(instances
+			(project ""
+				(path "/93c2951a-8c49-47b9-a2da-5f3676181e30"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 331.47 195.58 0)
 		(unit 1)
@@ -12466,6 +13684,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BF244A")
+		(at 198.12 312.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e667987f-9ab3-4034-9a13-9f72b96fb743")
+		(property "Reference" "Q8"
+			(at 203.2 311.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BF244A"
+			(at 203.2 313.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 203.2 314.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BF244x.pdf"
+			(at 203.2 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50mA Id, 30V Vgs, N-Channel FET Transistor, TO-92"
+			(at 198.12 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ecf50046-be99-499e-bf46-1588b7fd4ceb")
+		)
+		(pin "1"
+			(uuid "cde8e08b-df87-4787-b01e-138a990954f7")
+		)
+		(pin "2"
+			(uuid "5939034c-a689-48ea-838c-3def6eee362a")
+		)
+		(instances
+			(project "Vaughn_HPC"
+				(path "/93c2951a-8c49-47b9-a2da-5f3676181e30"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Network08")
 		(at 332.74 250.19 270)
 		(unit 1)
@@ -12549,6 +13843,82 @@
 			(project ""
 				(path "/93c2951a-8c49-47b9-a2da-5f3676181e30"
 					(reference "RN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BF244A")
+		(at 199.39 297.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eaa14977-1386-4c6c-9dc8-ce9bafc4375f")
+		(property "Reference" "Q7"
+			(at 204.47 295.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BF244A"
+			(at 204.47 298.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 204.47 299.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BF244x.pdf"
+			(at 204.47 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50mA Id, 30V Vgs, N-Channel FET Transistor, TO-92"
+			(at 199.39 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "145f1147-610b-4f3a-bfe3-c01c05961b05")
+		)
+		(pin "1"
+			(uuid "410f9e67-632c-46c8-9339-189dd8c539df")
+		)
+		(pin "2"
+			(uuid "4c995f99-35d0-43fe-acb4-fff11c374314")
+		)
+		(instances
+			(project "Vaughn_HPC"
+				(path "/93c2951a-8c49-47b9-a2da-5f3676181e30"
+					(reference "Q7")
 					(unit 1)
 				)
 			)
