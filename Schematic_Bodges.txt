@@ -1,0 +1,7 @@
+RP1,RP2, arrays are off by 1, theyre 8 pin, 7 resistors and a common.
+
+JP2, JP4 are shown as screw terminials for now, untill I track down the actual connectors.
+
+Chose geneeric mosets, The parts are from international Relay, part: Fu3910 ir7428 
+but I cant find a decent datasheet, or specific Kicad part yet. 
+
